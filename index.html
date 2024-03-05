@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Input fields</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="inputs">
+            <div class="ONE">
+                <label>MATHS</label>
+                <input id="book1" type="number" placeholder="Marks">
+            </div> <br>
+    
+            <div class="TWO">
+                <label>PHYSICS</label>
+                <input id="book2" type="number" placeholder="Marks">
+            </div> <br>
+    
+            <div class="THREE">
+                <label>CHEMISTRY</label>
+                <input id="book3" type="number" placeholder="Marks">
+            </div> <br>
+    
+            <div class="FOUR">
+                <label>ENGLISH</label>
+                <input id="book4" type="number" placeholder="Marks">
+            </div> <br>
+    
+            <div class="FIVE">
+                <label>COMPUTER</label>
+                <input id="book5" type="number" placeholder="Marks">
+            </div> <br>
+    
+           <div class="SIX">
+            <button onclick="calculate()">CALCULATE</button>
+           </div><br>
+        </div> 
+    
+    
+        <div class="table">
+            <table>
+                <tr>
+                    <td>Total Marks:</td>
+                    <td>500</td>
+                </tr>
+    
+                <tr>
+                    <td>Obtained Marks:</td>
+                    <td id="obtain"></td>
+                </tr>
+    
+                <tr>
+                    <td>Percentage:</td>
+                    <td id="Percentage"></td>
+                </tr>
+    
+                <tr>
+                    <td>Grade:</td>
+                    <td id="grade"></td>
+                </tr>
+    
+                <tr>
+                    <td>Remarks:</td>
+                    <td id="remarks"></td>
+                </tr>
+            </table>
+        </div>
+    
+    
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
